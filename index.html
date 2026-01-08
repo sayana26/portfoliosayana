@@ -3,97 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayana S Nair | Data Science Student & ML Enthusiast</title>
+    <title>Sayana S Nair | Data Science & ML Specialist</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="blob-bg"></div>
-
-    <nav class="glass-nav">
-        <div class="logo">SAYANA<span>.</span></div>
-        <div class="nav-links">
-            <a href="#about">Profile</a>
-            <a href="#projects">Projects</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#languages">Languages</a>
-            <a href="mailto:cb.ps.i5DAS22144@cb.students.amrita.edu" class="nav-cta">Connect</a>
+    <div id="particles-js"></div> <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">S<span>S</span>N</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#certifications">Education</a></li>
+                <li><a href="#contact" class="btn-contact">Let's Talk</a></li>
+            </ul>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content reveal">
-            <span class="badge">Data Science Student | ML Enthusiast</span>
-            <h1>SAYANA S <span class="highlight">NAIR</span></h1>
-            <p class="hero-bio">Amrita Vishwa Vidyapeetham, Coimbatore</p>
-        </div>
-    </header>
-
-    <section id="about" class="container reveal">
-        <h2 class="label">THE PROFILE</h2>
-        <div class="glass-card clickable-block">
-            <p>I am a final-year <strong>MSc Data Science student at Amrita Vishwa Vidyapeetham</strong> with a robust foundation in <strong>Machine Learning, Deep Learning, and Pattern Recognition</strong>. I am passionate about solving complex business problems and extracting actionable insights from high-dimensional data. I am dedicated to building intelligent models that drive real-world impact and strategic decision-making.</p>
+    <section class="hero">
+        <div class="hero-text">
+            <h2 class="reveal">MSc Data Science @ Amrita Vishwa Vidyapeetham</h2>
+            <h1 class="reveal">SAYANA S <span class="accent">NAIR</span></h1>
+            <p class="reveal">Bridging the gap between complex data and strategic business insights through Deep Learning & Pattern Recognition.</p>
+            <div class="hero-btns reveal">
+                <a href="#projects" class="primary-btn">View Projects</a>
+                <a href="https://linkedin.com/in/sayana-s-628127230/" target="_blank" class="secondary-btn">LinkedIn</a>
+            </div>
         </div>
     </section>
 
     <section id="projects" class="container">
-        <h2 class="label">PROJECTS</h2>
+        <h2 class="section-title">ADVANCED PROJECTS</h2>
         <div class="project-grid">
-            <div class="project-card reveal clickable-block">
-                <span class="tag">Pattern Recognition</span>
-                <h3>EV HVAC & Speed Analysis</h3>
-                <p>Modeled BMW i3 energy consumption ($R^2 > 0.998$) using Random Forest and LSTM. Researched critical factors affecting vehicle speed dynamics and environmental impacts on battery range.</p>
+            <div class="glass-card project-box clickable">
+                <div class="card-header">
+                    <span class="category">Deep Learning</span>
+                    <h3>EV HVAC & Speed Dynamics</h3>
+                </div>
+                <p>Advanced modeling of BMW i3 energy consumption using Random Forest & LSTM ($R^2 > 0.998$). Specialized research on external factors influencing vehicle velocity patterns.</p>
+                <div class="tech-stack"><span>Python</span><span>LSTM</span><span>Scikit-Learn</span></div>
             </div>
-            <div class="project-card reveal clickable-block">
-                <span class="tag">Reinforcement Learning</span>
-                <h3>Smart Relobot</h3>
-                <p>Designed an RL-based system for laboratory resource allocation. Managed resources based on priority levels to avoid collisions and ensure seamless experimental workflows.</p>
+
+            <div class="glass-card project-box clickable">
+                <div class="card-header">
+                    <span class="category">Reinforcement Learning</span>
+                    <h3>Smart Relobot Priority System</h3>
+                </div>
+                <p>Autonomous lab resource agent. Implemented a priority-based collision avoidance algorithm to optimize multi-robot experimental workflows.</p>
+                <div class="tech-stack"><span>RL</span><span>Q-Learning</span><span>MATLAB</span></div>
             </div>
-            <div class="project-card reveal clickable-block">
-                <span class="tag">Medical Image Preprocessing</span>
-                <h3>Brain Cancer Analytics</h3>
-                <p>Conducted analysis on various brain cancer types. Performed advanced preprocessing and classification to distinguish between cancerous and non-cancerous medical images.</p>
+
+            <div class="glass-card project-box clickable">
+                <div class="card-header">
+                    <span class="category">Bio-Informatics</span>
+                    <h3>Brain Cancer Classification</h3>
+                </div>
+                <p>Automated medical image preprocessing pipeline for multi-class brain cancer detection. Enhanced feature extraction for non-cancerous vs cancerous tissue separation.</p>
+                <div class="tech-stack"><span>OpenCV</span><span>CNN</span><span>TensorFlow</span></div>
             </div>
         </div>
     </section>
 
     <section id="certifications" class="container">
-        <h2 class="label">CERTIFICATIONS & SIMULATIONS</h2>
-        <div class="cert-grid">
-            <div class="cert-box reveal clickable-block">NLP Fundamentals (Infosys)</div>
-            <div class="cert-box reveal clickable-block">British Airways Data Science Simulation</div>
-            <div class="cert-box reveal clickable-block">Deloitte Australia Data Analytics Simulation</div>
-            <div class="cert-box reveal clickable-block">Python Basic (HackerRank)</div>
-            <div class="cert-box reveal clickable-block">SQL Basic (HackerRank)</div>
-            <div class="cert-box reveal clickable-block">ML with MATLAB (MathWorks)</div>
+        <h2 class="section-title">PROFESSIONAL CREDENTIALS</h2>
+        <div class="cert-row">
+            <div class="glass-card cert-item clickable">
+                <h4>British Airways</h4>
+                <p>Data Science Simulation</p>
+            </div>
+            <div class="glass-card cert-item clickable">
+                <h4>Deloitte Australia</h4>
+                <p>Data Analytics Simulation</p>
+            </div>
+            <div class="glass-card cert-item clickable">
+                <h4>Infosys</h4>
+                <p>NLP Fundamentals</p>
+            </div>
+            <div class="glass-card cert-item clickable">
+                <h4>HackerRank</h4>
+                <p>SQL & Python (Basic)</p>
+            </div>
         </div>
     </section>
 
-    <section id="languages" class="container">
-        <h2 class="label">LANGUAGES</h2>
+    <section class="container languages">
+        <h2 class="section-title">LANGUAGE PROFICIENCY</h2>
         <div class="lang-grid">
-            <div class="lang-card clickable-block">
-                <strong>English</strong>
-                <p>Full Professional Proficiency</p>
-            </div>
-            <div class="lang-card clickable-block">
-                <strong>Malayalam</strong>
-                <p>Native Proficiency</p>
-            </div>
-            <div class="lang-card clickable-block">
-                <strong>Hindi</strong>
-                <p>Professional Proficiency</p>
-            </div>
+            <div class="lang-pill clickable">English <span>Full Professional</span></div>
+            <div class="lang-pill clickable">Malayalam <span>Native</span></div>
+            <div class="lang-pill clickable">Hindi <span>Professional</span></div>
         </div>
     </section>
 
-    <footer>
-        <p>cb.ps.i5DAS22144@cb.students.amrita.edu | +91 9863329260</p>
-        <div class="footer-links">
-            <a href="https://linkedin.com/in/sayana-s-628127230/" target="_blank">LinkedIn Profile</a>
-        </div>
+    <footer id="contact">
+        <p>© 2026 Sayana S Nair | Amrita Vishwa Vidyapeetham</p>
+        <p>cb.ps.i5DAS22144@cb.students.amrita.edu</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
